@@ -1,0 +1,387 @@
+@font-face {
+    font-family: Avenir Next LT;
+    src: url(../fonts/AvenirNextLTProDemi.ttf);
+}
+@font-face {
+    font-family: Avenir NextBold;
+    src: url(../fonts/AvenirNextLTPro-Bold.woff);
+}
+@font-face {
+    font-family: Avenir NextRegular;
+    src: url(../fonts/AvenirNextLTPro-Regular.woff);
+}
+@font-face {
+    font-family: SegoeUI;
+    src: url(../fonts/SegoeUI.woff);
+}
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.clearfix{
+    clear: both;
+}
+.wrap-header{
+    width: 100%;
+    height: 90px;
+    background: #ffffff;
+}
+
+.header-content{
+    display: inline-flex;
+    justify-content: center;
+}
+
+.header-logo{
+    margin-left: 80px;
+    width: 200px;
+    height: 100%;
+}
+.header-logo img{
+    padding: 15px 0;
+    width: 100%;
+}
+.header-navs nav .navbar-nav{
+    padding: 15px 0px;
+}
+.header-navs nav .nav-item{
+    padding: 0 15px;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #2aa36c;
+}
+.dropdown-investor{
+    border: 2px solid #2aa36c;
+    border-radius: 5px;
+    margin-left: 90px;
+}
+.dropdown-investor a{
+    color: #2aa36c !important;
+}
+.header-navs nav .nav-item .nav-link{
+    font-family: "Avenir Next LT", sans-serif;
+    font-size: 18px;
+    color: #575757;
+}
+.nav-flag{
+    margin: 0 5px;
+}
+.nav-flag::after{
+    color: #2aa36c;
+    font-size: 25px;
+    position: relative;
+    top: 5px;
+}
+.nav-flag img{
+    width: 30px;
+    height: 30px;
+    /*position: absolute;*/
+}
+.flag-arrow{
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #2aa36c;
+    position: relative;
+    top: 25px;
+    left: 40px;
+}
+.nav-language a .disabled{
+    font-family: 'Roboto', sans-serif;
+}
+.dropdown-nav-nations{
+    left: -220px;
+    top: 64px;
+    padding: 0;
+}
+.wrap-nav-nations{
+    background: #fff;
+    width: auto;
+    height: auto;
+}
+.wrap-nav-nations .nav-nations-content{
+    display: inline-flex;
+    justify-items: center;
+    padding: 15px 210px;
+}
+.nation-flag{
+    border-right: 1px solid #004738;
+    padding: 0 55px;
+}
+.nation-flag img {
+    width: 41px;
+    height: 41px;
+    border: 2px solid #00a76a;
+    border-radius: 50%;
+}
+li.nav-nations{
+    text-align: center;
+    /*padding: 0px 25px;*/
+}
+p.nation-name{
+    margin: 15px 0;
+    font-family: "Segoe UI", sans-serif;
+}
+/*end header*/
+
+/*section banner top*/
+.banner-top img{
+    width: 100%;
+}
+
+/*section block operation*/
+.block-operation{
+    background: url("/images/block_operation/block_opention_background_2.png") no-repeat center center;
+    background-size: cover;
+}
+.block-operation-title{
+    margin: 0 auto;
+    max-width: 60%;
+    text-align: center;
+    padding: 70px 0px;
+}
+.block-operation-title h3{
+    font-size: 48px;
+    font-family: "Avenir NextBold", sans-serif;
+    color: #fff;
+}
+.operation-description{
+    font-family:"Avenir NextRegular", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    padding: 15px 0;
+}
+.block-operation-wrap-content{
+    margin: 0 auto !important;
+    max-width: 75%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 450px;
+}
+.operation-content .operation-description{
+    max-width: 80%;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+}
+
+/*section feature*/
+.feature-lendmo{
+    position: relative;
+}
+.feature-content{
+    margin-top: 15px;
+}
+.feature-lendmo-title{
+    font-size: 48px;
+    font-family: "Avenir NextBold", sans-serif;
+    max-width: 40%;
+    color: #2aa36c;
+    margin: auto;
+}
+.image-circle {
+    width: 300px;
+    position: absolute;
+    top: 170px;
+    left: 60px;
+}
+.image-circle img{
+    width: 100%;
+}
+.image-phone{
+    position: relative;
+    top: 0px;
+    left: 140px;
+}
+.iphone-x img {
+    max-width: 445px;
+}
+.boarding {
+    position: absolute;
+    top: 40px;
+    left: 140px;
+}
+.boarding img{
+    max-width: 210px;
+}
+.block-stepsr img{
+    width: 100%;
+}
+.feature-content-right{
+    z-index: 9999;
+    position: absolute;
+    margin-left: 110px;
+    padding: 10px 0;
+}
+.step-content{
+    display: flex;
+    justify-content: left;
+}
+.circle-number {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 24px;
+    border:1px solid #08c86f;
+    text-align: center;
+    color: #08c86f;
+}
+.step-active{
+    background: #08c86f;
+    color: #fff
+}
+.instuctions-steps{
+    padding: 5px;
+}
+.step-description{
+    padding-left: 30px;
+    max-width: 75%;
+}
+.step-description h3{
+    font-family: "Avenir Next LT", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #2aa36c;
+}
+.step-description p{
+    font-size: 18px;
+    font-family:"Avenir NextRegular", sans-serif;
+}
+/*.block-steps{*/
+/*    background: url("/images/block_operation/layer_background.png") no-repeat;*/
+/*}*/
+.image-upper {
+    position: absolute;
+    top: -335px;
+}
+.image-upper img{
+    max-width: 100%;
+}
+.block-steps {
+    z-index: 999;
+    position: relative;
+    /* width: 100%; */
+     margin: 30px 0px;
+    top: 25px;
+}
+.block-step-content {
+    max-width: 70%;
+    margin: auto;
+    padding-top: 20px;
+}
+.step-content-title{
+    max-width: 75%;
+    text-align: center;
+}
+.step-wrapper{
+    margin-top: 50px;
+}
+.step-wrap-content{
+    text-align: center;
+}
+.step-title-text {
+    max-width: 70%;
+    margin: auto;
+}
+/* section block bottom*/
+.block-bottom{
+    margin-top: 120px;
+    background: url("/images/block_operation/background_section_bottom.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    height: auto;
+}
+.group-partner, .blog-posts{
+    max-width: 75%;
+    margin: auto;
+}
+.wrap-logo, .blog-post-content{
+    padding: 5px 50px;
+    margin: 35px 0;
+}
+.logo-partner{
+    margin: 0 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+/*section article blog */
+.line-top{
+    border: 2px solid #2aa36c;
+    width: 100px;
+    margin: 50px auto;
+}
+.readmore-post{
+    padding: 5px 25px;
+    border: 1px solid #2aa36c;
+    border-radius: 30px;
+    color: #2aa36c;
+}
+.date-public{
+    margin-top: 20px;
+    color: #2aa36c;
+    border-bottom: 1px solid #2aa36c;
+}
+.wrap-prize{
+    max-width: 40%;
+    margin: auto;
+    background: #f7f9f7;
+}
+ul.prize-content{
+    margin: 50px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+}
+ul.prize-content li{
+    padding: 0 10px;
+}
+.wrap-video{
+    max-width: 75%;
+    margin: auto;
+}
+.video-content{
+    padding: 40px 50px 80px 50px;
+    display: flex;
+    justify-content: center;
+}
+.main-left img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.main-right{
+    padding-left: 20px;
+}
+.main-right img{
+    border-radius: 10px;
+    width: 280px;
+    height: 170px;
+}
+.video-top{
+    margin-bottom: 20px;
+}
+.contact-title{
+    background: #00986f;
+}
+.contact-title h3{
+    padding: 15px 25px 40px 25px;
+    margin: auto;
+    width: 40%;
+    text-align: center;
+    font-size: 48px;
+    font-family: "Avenir NextBold", sans-serif;
+    color: #fff;
+}
+/*.title-partner{*/
+/*    position: relative;*/
+/*    bottom: -120px;*/
+/*    z-index: 999;*/
+/*}*/
