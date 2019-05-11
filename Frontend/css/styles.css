@@ -357,6 +357,9 @@ ul.prize-content li{
     height: 100%;
     border-radius: 10px;
 }
+.main-right, .main-left{
+    padding: 25px 0;
+}
 .main-right{
     padding-left: 20px;
 }
@@ -371,8 +374,11 @@ ul.prize-content li{
 .contact-title{
     background: #00986f;
 }
+.contact{
+    position: relative;
+}
 .contact-title h3{
-    padding: 15px 25px 40px 25px;
+    padding: 15px 25px 60px 25px;
     margin: auto;
     width: 40%;
     text-align: center;
@@ -380,8 +386,60 @@ ul.prize-content li{
     font-family: "Avenir NextBold", sans-serif;
     color: #fff;
 }
+.contact-wrap{
+    position: relative;
+    top: -40px;
+}
+.contact-detail {
+    background: #fff;
+    max-width: 45%;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 999;
+}
+.contact-items{
+    padding: 25px 30px;
+    text-align: center;
+    margin: 15px 35px;
+}
+.icon-contact{
+    float: left;
+}
+.icon-contact img{
+    height: 100%;
+}
+.text-contact{
+    float: right;
+    padding-left: 10px;
+}
+.contact-items h3{
+    font-family: "Avenir Next LT", sans-serif;
+    font-size: 22px;
+    color: #2aa36c;
+}
+.text-contact p{
+    font-size: 14px;
+    font-family: "Avenir Next LT", sans-serif;
+    margin: 0;
+}
+.maps {
+    position: relative;
+    top: -158px;
+    z-index: 1;
+}
+.maps img{
+    max-width: 100%;
+}
 /*.title-partner{*/
 /*    position: relative;*/
 /*    bottom: -120px;*/
 /*    z-index: 999;*/
 /*}*/
+
+/*footer*/
+.footer-logo img {
+    max-width: 100%;
+}

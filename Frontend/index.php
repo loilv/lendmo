@@ -294,25 +294,54 @@
         <div class="contact-title">
             <h3>Contact Us</h3>
         </div>
-        <div class="contact-detail">
-            <div class="contact-phone">
-                <div class="icon-contact"></div>
-                <div class="text-contact">
-                    <h3>Phone</h3>
-                    <p>+(84) 123456789</p>
-                    <p>+(84) 123456789</p>
+        <div class="contact-wrap">
+            <div class="contact-detail">
+                <div class="contact-items">
+                    <div class="icon-contact"><img src="./images/block_operation/contact_phone.png" alt=""></div>
+                    <div class="text-contact">
+                        <h3>Phone</h3>
+                        <p>+(84) 123456789</p>
+                        <p>+(84) 123456789</p>
+                    </div>
                 </div>
-            </div>
-            <div class="contact-email">
-                <div class="icon-contact"></div>
-                <div class="text-contact">
-                    <h3>Phone</h3>
-                    <p>+(84) 123456789</p>
-                    <p>+(84) 123456789</p>
+                <div class="contact-items">
+                    <div class="icon-contact"><img src="./images/block_operation/contact_email.png" alt=""></div>
+                    <div class="text-contact">
+                        <h3>Phone</h3>
+                        <p>+(84) 123456789</p>
+                        <p>+(84) 123456789</p>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="maps"><img src="./images/block_operation/Map.png" alt=""></div>
     </section>
+<footer>
+    <div class="footer-wrap">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="footer-logo"><img src="./images/header/logo.png" alt=""></div>
+                <div class="nav-footer">
+                    <div class="nav-left">
+                        <ul>
+                            <li>Home</li>
+                            <li>About Us</li>
+                            <li>Testimonials</li>
+                            <li>Team</li>
+                        </ul>
+                    </div>
+                    <div class="nav-right">
+                        <ul>
+                            <li>Portfolio</li>
+                            <li>Clients</li>
+                            <li>Contacts</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 <script src="./js/jquery-3.4.1.min.js"></script>
 <script src="./js/bootstrap.min.js"></script>
